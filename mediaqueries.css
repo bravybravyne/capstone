@@ -1,0 +1,57 @@
+/* Mobile & Tablet Responsiveness */
+
+@media (max-width: 1024px) {
+  section {
+    padding: 4rem 7% 3rem;
+  }
+
+  #desktop-nav {
+    padding: 0.9rem 7%;
+  }
+
+  .section-container {
+    max-width: 900px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Switch to hamburger nav */
+  #desktop-nav {
+    display: none;
+  }
+
+  #hamburger-nav {
+    display: block;
+  }
+
+  section {
+    padding: 4.5rem 7% 3.5rem;
+  }
+
+  #profile {
+    padding-top: 5rem;
+    min-height: auto;
+  }
+
+  .btn-container {
+    justify-content: center;
+  }
+
+  .about-cards,
+  .experience-container,
+  .projects-grid,
+  .contact-info-upper-container {
+    flex-direction: column;
+    display: flex;
+  }
+
+  footer {
+    padding: 1.8rem 7% 2.2rem;
+  }
+
+  footer .nav-links {
+    flex-wrap: wrap;
+    gap: 0.8rem;
+    justify-content: center;
+  }
+}
